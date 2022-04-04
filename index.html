@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifat Ahmed | Web Designer and Developer</title>
+    <!-- fav-icon start -->
+    <link rel="shortcut icon" href="favicon.png" type="jpg/png">
+    <!-- fav-icon end -->
+    <!-- link for css style -->
+    <link rel="stylesheet" href="css/connection.inc.css">
+    <!-- link for text font -->
+    <link rel="stylesheet" href="fonts/fonts.inc.css">
+    <!-- link for javascript -->
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- link for font-awesome icons -->
+    <script src="https://kit.fontawesome.com/f5fb2d88ed.js" crossorigin="anonymous"></script>
+
+    <!--javasrcipt for header section start-->
+    <script>
+        $(document).ready(function(){
+            $("#threeDot").click(function(){
+                $("ul").toggleClass("threeDotShow");
+            });
+        });
+    </script>
+    <!--javascript for header section end-->
+</head>
+<body>
+    <!-- header section start -->
+    <header id="header">
+        <div class="container">
+            <div class="wrapper">
+                <!-- header left side start -->
+                <div class="header_left">
+                    <div class="lg_box">
+                        <div class="lg">
+                            <a href="index.html">Sif</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- header left side end -->
+
+                <!-- header right side start -->
+                <div class="header_right">
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">What I Do</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#contact" class="contactBtn">Contact</a></li>
+                        </ul>
+                        <label id="threeDot"><i class="fa fa-bars"></i></label>
+                    </nav>
+                </div>
+                <!-- header right side end -->
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+</body>
+</html>
